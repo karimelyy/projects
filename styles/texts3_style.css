@@ -1,0 +1,27 @@
+p{
+    font-family: Montserrat;
+    margin-top: 0px;
+}
+
+.Title{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.Paragraph{
+    font-size: 19px;
+    color: black;
+    text-align: center;
+}
+
+.Underline{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Underline:active{
+    opacity: 0.8;
+}

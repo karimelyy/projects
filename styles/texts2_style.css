@@ -1,0 +1,109 @@
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.Red{
+    font-size: 11px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.Mac{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.Big{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.price{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Button{
+    background-color: rgb(71, 83, 255);
+    color: white;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 47%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.Button:active{
+    opacity: 0.8;
+}
+
+.Tausend{
+    font-size: 28px;
+    color: black;
+    margin-bottom: 6px;
+}
+.USD{
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+}
+
+.Plus{
+    color: green;
+    margin-bottom: 6px;
+}
+
+.Hours{
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+    margin-bottom: 30px;
+}
+.Numbers{
+    color: rgb(255, 32, 32);
+}
+
+.Tweet_account{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.at{
+    font-weight: normal;
+    color: rgb(105, 105, 105);
+}
+
+.Tweet{
+    font-size: 17px;
+    color: black;
+    width: 530px;
+    margin-bottom: 15px;
+}
+
+.foot{
+    font-size: 17px;  
+    color: black;
+}
+
+.at2{
+    color: rgb(0, 89, 255);
+    cursor: pointer;
+}
+
+.at2:active{
+    opacity: 0.8;
+}
