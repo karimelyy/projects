@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Images & text boxes</title>
+    <style>
+
+        img{
+            margin-top: 0px;
+            margin-bottom: 40px;
+            vertical-align: middle;
+        }
+
+        .pic1{
+            width: 200px;
+            border-radius: 8px;
+        }
+
+        .pic2{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .pic3{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 100px;
+        }
+
+        .search-bar1{
+            font-size: 15px;
+            padding: 9px 15px;
+            width: 170px;
+            border: 1px solid rgb(150, 150, 150);
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .search-bar2{
+            font-size: 15px;
+            padding: 9px 15px;
+            width: 400px;
+            border: none;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.603);
+            border-radius: 200px;
+            margin-bottom: 20px;
+        }
+
+        .p1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: rgb(100, 100, 100);
+        }
+
+        .Email{
+            font-size: 15px;
+            padding: 7px 15px;
+            width: 355px;
+            margin-bottom: 20px;
+        }
+
+        .p2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: rgb(51, 51, 51);
+            text-align: center;
+        }
+
+        .Email-Button{
+            background-color: rgb(0, 115, 182);
+            color: white;
+            font-size: 18px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 14px 150px;
+            border: none;
+            margin-left: 18%;
+            border-radius: 75px;
+            cursor: pointer;
+        }
+
+        .Email-Button:hover{
+            opacity: 0.8;
+        }
+
+        .Email-Button:active{
+            opacity: 0.5;
+        }
+
+        .Profile{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 30px;
+            vertical-align: middle;
+            margin-top: 35px;
+        }
+
+        .Tweet-bar{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            width: 200px;
+            border: none;
+        }
+
+        .Tweet-Button{
+            background-color: rgb(0, 162, 255);
+            color: white;
+            padding: 6px 10px;
+            font-weight: bold;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+
+        .Tweet-Button:hover{
+            opacity: 0.8;
+        }
+
+        .Tweet-Button:active{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <img class="pic1" src="images/gym.jpg" alt="gym_picture">
+    <img class="pic2" src="images/gym.jpg" alt="gym_picture">
+    <img class="pic3" src="images/gym.jpg" alt="gym_picture">
+    <br>
+    <input class="search-bar1" type="text" placeholder="Search">
+    <br>
+    <input class="search-bar2" type="text" placeholder="Search Google or type URL">
+    <br>
+    <p class="p1">Email</p>
+    <input class="Email" type="text">
+    <p class="p2">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+    <button class="Email-Button">Agree & Join</button>
+    <br>
+    <img class="Profile" src="images/gym.jpg" alt="gym_picture">
+    <input class="Tweet-bar" type="text" placeholder="What's happening?">
+    <button class="Tweet-Button">Tweet</button>
+</body>
+</html>
