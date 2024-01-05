@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Div Element</title>
+    <style>
+        .Box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 30px;
+        }
+
+        .Circle{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            border-radius: 100px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .Choose{
+            width: 300px;
+            height: 95px;
+            border: 1px solid rgba(0, 0, 0, 0.363);
+            padding: 6px 10px;
+            margin-bottom: 30px;
+        }
+
+        .Question{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+
+        .YN{
+            font-size: 15px;
+            padding: 1px 5px;
+            cursor: pointer;
+        }
+
+        .Youtube{
+            width: 380px;
+            height: 100px;
+            padding: 6px 15px;
+            background-color: rgb(53, 53, 53);
+            margin-bottom: 30px;
+        }
+
+        .Title{
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .p1{
+            color: rgb(158, 158, 158);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 15px;
+        }
+
+        .Tweet{
+            width: 350px;
+            padding: 8px 15px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.301);
+            border-radius: 7px;
+            margin-bottom: 40px;
+        }
+
+        .Profile{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 30px;
+            vertical-align: middle;
+        }
+
+        .Type{
+            padding: 8px 8px;
+            font-size: 15px;
+            border: none;
+        }
+
+        .Tweet-button{
+            padding: 7px 14px;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background-color: rgb(63, 146, 255);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+        .Tweet-button:hover{
+            opacity: 0.8;
+        }
+
+        .Tweet-button:active{
+            opacity: 0.5;
+        }
+
+        .friend1{
+            width: 200px;
+            height: 295px;
+            box-shadow: 1px 1px 5px;
+            border-radius: 2px;
+            display: inline-block;
+            margin-right: 5px;
+            margin-bottom: 40px;
+        }
+
+        .Dave-pic{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: top;
+            margin-bottom: 5px;
+        }
+
+        .Dave-pic:hover{
+            opacity: 0.8;
+        }
+
+        .Dave-pic:active{
+            opacity: 0.5;
+        }
+
+        .Dave-paragraph{
+            margin-left: 4px;
+        }
+
+        .Dave-name{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            margin-top: 0px;
+            margin-bottom: 3px;
+        }
+
+        .Dave-friends{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 7px;
+        }
+
+        .Dave-add{
+            font-size: 15px;
+            padding: 4px 13px;
+            border: none;
+            background-color: rgb(0, 110, 255);
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .Dave-add:hover{
+            opacity: 0.8;
+        }
+
+        .Dave-add:active{
+            opacity: 0.5;
+        }
+
+        .friend2{
+            width: 200px;
+            height: 295px;
+            box-shadow: 1px 1px 5px;
+            border-radius: 2px;
+            display: inline-block;
+            margin-right: 5px;
+            margin-bottom: 40px;
+        }
+
+        .Wissy-pic{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: top;
+            margin-bottom: 5px;
+        }
+
+        .Wissy-pic:hover{
+            opacity: 0.8;
+        }
+
+        .Wissy-pic:active{
+            opacity: 0.5;
+        }
+
+        .Wissy-paragraph{
+            margin-left: 4px;
+        }
+
+        .Wissy-name{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            margin-top: 0px;
+            margin-bottom: 3px;
+        }
+
+        .Wissy-friends{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 7px;
+        }
+
+        .Wissy-add{
+            font-size: 15px;
+            padding: 4px 13px;
+            border: none;
+            background-color: rgb(0, 110, 255);
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .Wissy-add:hover{
+            opacity: 0.8;
+        }
+
+        .Wissy-add:active{
+            opacity: 0.5;
+        }
+
+        .friend3{
+            width: 200px;
+            height: 295px;
+            box-shadow: 1px 1px 5px;
+            border-radius: 2px;
+            display: inline-block;
+            margin-right: 15px;
+            margin-bottom: 40px;
+        }
+
+        .Karim-pic{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: top;
+            margin-bottom: 5px;
+        }
+
+        .Karim-pic:hover{
+            opacity: 0.8;
+        }
+
+        .Karim-pic:active{
+            opacity: 0.5;
+        }
+
+        .Karim-paragraph{
+            margin-left: 4px;
+        }
+
+        .Karim-name{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            margin-top: 0px;
+            margin-bottom: 3px;
+        }
+
+        .Karim-friends{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 7px;
+        }
+
+        .Karim-add{
+            font-size: 15px;
+            padding: 4px 13px;
+            border: none;
+            background-color: rgb(0, 110, 255);
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .Karim-add:hover{
+            opacity: 0.8;
+        }
+
+        .Karim-add:active{
+            opacity: 0.5;
+        }
+
+        .Google{
+            padding: 10px 10px;
+            width: 650px;
+            margin: auto;
+        }
+
+        .Google-logo{
+            width: 500px;
+            margin: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .Google-bar{
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: inline-block;
+            width: 630px;
+            margin: auto;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 300px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.603);
+            margin-bottom: 40px;
+        }
+
+        .Buttons{
+            width: 380px;
+            margin: auto;
+        }
+
+        .Button1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            padding: 8px 20px;
+            border: none;
+            background-color: rgb(214, 214, 214);
+            border-radius: 2px;
+            margin-right: 15px;
+            display: inline-block;
+        }
+
+        .Button2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            padding: 8px 20px;
+            border: none;
+            background-color: rgb(214, 214, 214);
+            border-radius: 2px;
+            display: inline-block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="Box"></div>
+    <div class="Circle"></div>
+    <div class="Choose">
+        <p class="Question">Satisfied with our service?</p>
+        <button class="YN">Yes</button>
+        <button class="YN">No</button>
+    </div>
+    <div class="Youtube">
+        <p class="Title">Install Youtube Music</p>
+        <p class="p1">Add Youtube Music to your desktop for quick and easy access</p>
+    </div>
+    <div class="Tweet">
+        <img class="Profile" src="images/gym.jpg" alt="profile-pic">
+        <input class="Type" type="text" placeholder="What's happening?">
+        <Button class="Tweet-button">Tweet</Button>
+    </div>
+    <div class="friend1">
+        <a href="#"><img class="Dave-pic" src="images/profile1.jpg"></a>
+        <div class="Dave-paragraph">
+            <p class="Dave-name">Dave</p>
+            <p class="Dave-friends">2 manual friends</p>
+            <button class="Dave-add">Add Friend</button>
+        </div>
+    </div>
+    <div class="friend2">
+        <a href="#"><img class="Wissy-pic" src="images/profile2.jpg"></a>
+        <div class="Wissy-paragraph">
+            <p class="Wissy-name">Wissy</p>
+            <p class="Wissy-friends">4 manual friends</p>
+            <button class="Wissy-add">Add Friend</button>
+        </div>
+    </div>
+    <div class="friend3">
+        <a href="#"><img class="Karim-pic" src="images/profile3.jpeg"></a>
+        <div class="Karim-paragraph">
+            <p class="Karim-name">Karim</p>
+            <p class="Karim-friends">1 manual friends</p>
+            <button class="Karim-add">Add friend</button>
+        </div>
+    </div>
+    <div class="Google">
+        <div class="main">
+            <img class="Google-logo" src="images/Google_logo.png">
+            <input class="Google-bar" type="text" placeholder="Search Google or type a URL">
+        </div>
+        <div class="Buttons">
+            <button class="Button1">Google Search</button>
+            <button class="Button2">I'm Feeling Lucky</button>
+        </div>
+    </div>
+</body>
+</html>
