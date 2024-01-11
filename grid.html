@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Grids</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        .profiles{
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
+            padding-bottom: 10px;
+        }
+
+        .images {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            object-position: center;
+            cursor: pointer;
+        }
+
+        .images:hover{
+            opacity: 0.8;
+        }
+
+        .images:active{
+            opacity: 0.5;
+        }
+
+        .profile-names {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            padding-left: 10px;
+        }
+
+
+        .profiles-info{
+            margin-left: 8px;
+        }
+
+
+        .manuals{
+            font-family: Roboto;
+            font-size: 14px;
+            color: rgb(100, 100, 100);
+            vertical-align: middle;
+            padding-bottom: 10px;
+        }
+
+        .mini-imgs{
+            width: 100%;
+            height: 40px;
+            border-radius: 100px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+
+        .mini-imgs:hover{
+            opacity: 0.8;
+        }
+
+        .mini-imgs:active{
+            opacity: 0.5;
+        }
+
+        .Buttons{
+            margin-left: 10px;
+            padding: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(23, 116, 255);
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .Buttons:hover{
+            opacity: 0.8;
+        }
+
+        .Buttons:active{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: grid;
+    grid-template-columns: 200px 75px;
+    margin-bottom: 30px;">
+        <div style="background-color: lightblue;">200px</div>
+        <div style="background-color: pink;">75px</div>
+    </div>
+    <div style="display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 30px;">
+        <div style="background-color: lightblue;">col1</div>
+        <div style="background-color: pink;">col2</div>
+        <div style="background-color: lightblue;">col3</div>
+    </div>
+
+
+    <div style="display: grid;
+    row-gap: 10px;
+    margin-bottom: 30px;">
+        <div style="display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;">
+            <div style="background-color: pink;">col1</div>
+            <div style="background-color: pink;">col2</div>
+            <div style="background-color: pink;">col3</div>
+            <div style="background-color: pink;">col4</div>
+        </div>
+        <div style="display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;">
+            <div style="background-color: pink;">col1</div>
+            <div style="background-color: pink;">col2</div>
+            <div style="background-color: pink;">col3</div>
+            <div style="background-color: pink;">col4</div>
+        </div>
+    </div>
+
+
+    <div style="display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;">
+        <div class="profiles">
+            <div>
+                <img class="images" src="images/profile1.jpg">
+            </div>
+            <div class="profile-names">
+                <p>Oliver</p>
+            </div>
+            <div class="profiles-info" style="display: grid;
+            grid-template-columns: 40px 1fr;
+            column-gap: 10px;">
+                <div>
+                    <img class="mini-imgs" src="images/profile1.jpg">
+                </div>
+                <div class="manuals">
+                    <p>2 manual friends</p>
+                </div>
+            </div>
+            <div>
+                <button class="Buttons">Add Friend</button>
+            </div>
+        </div>
+
+
+        <div class="profiles">
+            <div>
+                <img class="images" src="images/profile2.jpg">
+            </div>
+            <div class="profile-names">
+                <p>Mimi</p>
+            </div>
+            <div class="profiles-info" style="display: grid;
+            grid-template-columns: 40px 1fr;
+            column-gap: 10px;">
+                <div>
+                    <img class="mini-imgs" src="images/profile2.jpg">
+                </div>
+                <div class="manuals">
+                    <p>3 manual friends</p>
+                </div>
+            </div>
+            <div>
+                <button class="Buttons">Add Friend</button>
+            </div>
+        </div>
+
+
+        <div class="profiles">
+            <div>
+                <img class="images" src="images/profile3.jpeg">
+            </div>
+            <div class="profile-names">
+                <p>Rex</p>
+            </div>
+            <div class="profiles-info" style="display: grid;
+            grid-template-columns: 40px 1fr;
+            column-gap: 10px;">
+                <div>
+                    <img class="mini-imgs" src="images/profile3.jpeg">
+                </div>
+                <div class="manuals">
+                    <p>4 manual friends</p>
+                </div>
+            </div>
+            <div>
+                <button class="Buttons">Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
