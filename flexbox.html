@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="styles/flexbox.css">
+    <style>
+        .first-flex{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 40px;
+        }
+
+        .flexbox1{
+            background-color: lightblue;
+            width: 200px;
+        }
+
+        .flexbox2{
+            background-color: lightpink;
+            width: 75px;
+        }
+
+        .second-flex{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 40px;
+        }
+
+        .left-box{
+            background-color: lightblue;
+            width: 50px;
+        }
+
+        .middle-box{
+            background-color: lightpink;
+            flex: 1;
+        }
+
+        .right-box{
+            background-color: lightblue;
+            width: 75px;
+        }
+
+        .third-flex{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .boxes{
+            background-color: lightpink;
+        }
+
+        .fourth-flex{
+            height: 50px;
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .items{
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="first-flex">
+        <div class="flexbox1">200px</div>
+        <div class="flexbox2">75px</div>
+    </div>
+
+    <div class="second-flex">
+        <div class="left-box">item1</div>
+        <div class="middle-box">item2</div>
+        <div class="right-box">item3</div>
+    </div>
+
+    <div class="third-flex">
+        <div class="boxes">item1</div>
+        <div class="boxes">item2</div>
+        <div class="boxes">item3</div>
+        <div class="boxes">item4</div>
+    </div>
+
+    <div class="fourth-flex">
+        <div class="items">item1</div>
+        <div class="items">item2</div>
+    </div>
+
+
+    <div class="phone">
+        <div class="home">
+            <div class="texts">Home</div>
+            <div class="numbers">14</div>
+        </div>
+        <div class="notifications">
+            <div class="texts">Notifications</div>
+            <div class="numbers">3</div>
+        </div>
+        <div class="messages">
+            <div class="texts">Messages</div>
+            <div class="numbers">5</div>
+        </div>
+    </div>
+
+
+    <div class="header">
+        <div class="left-section">
+            Home
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+        </div>
+        <div class="right-section">
+            <button class="Download">Download</button>
+        </div>
+    </div>
+
+
+    <div class="profiles">
+        <div class="profile-pic">
+            <img src="images/profile1.jpg">
+        </div>
+        <div class="text">
+            <p>Oliver</p>
+            <p>the Cat</p>
+            <p>Popular</p>
+        </div>
+        <div class="follow">
+            <button>Follow</button>
+        </div>
+    </div>
+</body>
+</html>
