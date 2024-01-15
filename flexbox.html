@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
     <link rel="stylesheet" href="styles/flexbox.css">
     <style>
@@ -110,7 +112,7 @@
 
     <div class="header">
         <div class="left-section">
-            Home
+            <a href="#">Home</a>
         </div>
         <div class="middle-section">
             <input class="search-bar" type="text" placeholder="Search">
@@ -123,15 +125,41 @@
 
     <div class="profiles">
         <div class="profile-pic">
-            <img src="images/profile1.jpg">
+            <a href="#"><img src="images/profile1.jpg"></a>
         </div>
         <div class="text">
-            <p>Oliver</p>
-            <p>the Cat</p>
-            <p>Popular</p>
+            <p class="names">Oliver</p>
+            <p class="type">the Cat</p>
+            <p class="Popular">Popular</p>
         </div>
         <div class="follow">
-            <button>Follow</button>
+            <button class="buttons">Follow</button>
+        </div>
+    </div>
+    <div class="profiles">
+        <div class="profile-pic">
+            <a href="#"><img src="images/profile2.jpg"></a>
+        </div>
+        <div class="text">
+            <p class="names">Mimi</p>
+            <p class="type">Sleepy Cat</p>
+            <p class="Popular">Popular</p>
+        </div>
+        <div class="follow">
+            <button class="buttons">Follow</button>
+        </div>
+    </div>
+    <div class="profiles">
+        <div class="profile-pic">
+            <a href="#"><img src="images/profile3.jpeg"></a>
+        </div>
+        <div class="text">
+            <p class="names">Rex</p>
+            <p class="type">Happy Bulldog</p>
+            <p class="Popular">Popular</p>
+        </div>
+        <div class="follow">
+            <button class="buttons">Follow</button>
         </div>
     </div>
 </body>

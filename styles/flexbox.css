@@ -28,6 +28,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.home:hover{
+    background-color: rgb(222, 222, 222);
 }
 
 .notifications{
@@ -37,6 +43,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+}
+
+.notifications:hover{
+    background-color: rgb(222, 222, 222);
 }
 
 .messages{
@@ -46,6 +57,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+}
+
+.messages:hover{
+    background-color: rgb(222, 222, 222);
 }
 
 .header{
@@ -67,6 +83,11 @@
     color: white;
 }
 
+.left-section a{
+    text-decoration: none;
+    color: white
+}
+
 .search-bar{
     width: 300px;
     padding: 5px 15px;
@@ -84,6 +105,11 @@
     color: white;
     border: 1px solid white;
     cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.Download:hover{
+    background-color: rgba(119, 0, 255, 0.788);
 }
 
 .Download:active{
@@ -91,7 +117,7 @@
 }
 
 .profiles{
-    width: 480px;
+    width: 360px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -104,11 +130,32 @@
 }
 
 img{
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     object-fit: cover;
     object-position: top;
     border-radius: 100px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.names{
+    font-weight: bold;
+    color: black;
+}
+
+.type{
+    color: rgb(95, 95, 95);
+}
+
+.Popular{
+    color: rgb(95, 95, 95);
 }
 
 .text{
@@ -117,4 +164,23 @@ img{
 
 .follow{
     width: 100px;
+}
+
+.buttons{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 6px 11px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.buttons:hover{
+    opacity: 0.8;
+}
+
+.buttons:active{
+    opacity: 0.5;
 }
