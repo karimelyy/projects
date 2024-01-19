@@ -1,0 +1,221 @@
+body{
+    padding-bottom: 500px;
+}
+
+.main1{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.first-section1{
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.item1{
+    background-color: black;
+    color: white;
+    margin-left: 25%;
+}
+
+.second-section1{
+    background-color: lightblue;
+    width: 200px;
+}
+
+.main2{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.first-section2{
+    background-color: lightpink;
+    width: 100px;
+}
+
+.second-section2{
+    background-color: lightblue;
+    width: 200px;
+}
+
+.one-row{
+    display: block;
+    color: black;
+}
+
+.two-rows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row2{
+    background-color: black;
+    color: white;
+}
+
+
+
+.insta{
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 3px;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.15);
+    background-color: rgba(167, 167, 167, 0.082);
+    width: 375px;
+    margin-bottom: 80px;
+}
+
+.all-inboxes{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(109, 109, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.profiles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.profiles:hover{
+    background-color: rgba(167, 167, 167, 0.199);
+}
+
+.profiles-img{
+    width: 75px;
+}
+
+.imgs{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-names{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.times{
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+}
+
+.profile-descriptions{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.messages{
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+}
+
+
+.tweeter{
+    width: 440px;
+}
+
+.the-tweet{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.photo{
+    width: 58px;
+    padding: 10px;
+}
+
+.tweet-photo{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+
+.paragraphes{
+    margin-top: 10px;
+}
+
+.tweet-info{
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.span{
+    font-weight: normal;
+    color: gray;
+}
+
+.the-main-tweet{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.the-link{
+    display: flex;
+    margin-left: 75px;
+    border: 1px solid rgba(179, 179, 179, 0.767);
+    border-radius: 15px;
+    width: 345px;
+    height: 90px;
+}
+
+.gray{
+    background-color: rgba(167, 167, 167, 0.418);
+    width: 175px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.the-link-info{
+    padding: 12px;
+}
+
+.youtube{
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.the-link-title{
+    color: black;
+    line-height: 20px;
+}
+
+
