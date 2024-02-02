@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>positions-4</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+
+        .discord{
+            display: flex;
+        }
+
+        .profiles{
+            background-color: rgb(54, 54, 54);
+            width: 50px;
+            height: 385px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 15px;
+            position: fixed;
+            left: 10px;
+        }
+
+        .users{
+            width: 49px;
+            height: 49px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 100px;
+        }
+
+        .channels{
+            padding-left: 20px;
+            background-color: rgb(73, 73, 73);
+            width: 180px;
+            height: 400px;
+            position: fixed;
+            left: 76px;
+        }
+
+        .title{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+        .info{
+            color: white;
+            font-weight: bold;
+            padding-top: 15px;
+        }
+
+        .plus{
+            padding-right: 20px;
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(151, 151, 151);
+            padding-top: 0px;
+        }
+        
+        .room{
+            color: rgb(165, 165, 165);
+        }
+    </style>
+</head>
+<body>
+    <div class="discord">
+            <div class="profiles">
+                <img class="users" src="images/profile1.jpg">
+                <img class="users" src="images/profile2.jpg">
+                <img class="users" src="images/profile3.jpeg">
+            </div>
+            <div class="channels">
+                <div class="title">
+                    <p class="info">INFO</p>
+                    <p class="plus">+</p>
+                </div>
+                <div class="rooms">
+                    <p class="room"># new-videos</p>
+                    <p class="room"># updates</p>
+                    <p class="room"># faq</p>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
