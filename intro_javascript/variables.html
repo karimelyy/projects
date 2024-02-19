@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Varibles</title>
+    <style>
+        button{
+            padding: 8px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let karim = 0;
+    </script>
+    <button onclick="
+        console.log(`Cart Quantity: ${karim}`);">Show Quantity</button>
+    <button onclick="
+        karim++;
+        console.log(`Cart Quantity: ${karim}`);">Add to Cart</button>
+    <button onclick="
+        karim += 2;
+        console.log(`Cart Quantity: ${karim}`);">+2</button>
+    <button onclick="
+        karim += 3;
+        console.log(`Cart Quantity: ${karim}`);">+3</button>
+    <button onclick="
+        karim += 4;
+        console.log(`Cart Quantity: ${karim}`);">+4</button>
+    <button onclick="
+        karim += 5;
+        console.log(`Cart Quantity: ${karim}`);">+5</button>
+    <button onclick="
+        karim--;
+        console.log(`Cart Quantity: ${karim}`);">Remove from cart</button>
+    <button onclick="
+        karim = 0;
+        console.log('Cart has reset')
+        console.log(`Cart Quantity: ${karim}`);">Reset Cart</button>
+</body>
+</html>
